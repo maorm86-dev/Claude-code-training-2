@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="he" dir="rtl" data-theme="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Claude Code Academy</title>
+<meta name="description" content="לומדים Claude Code מאפס ועד אוטומציה מתקדמת: שיעורים, כרטיסיות עם חזרה מרווחת, חידונים, אתגרים ומשחקים.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%277%27 fill=%27%23111c33%27/%3E%3Cpath d=%27M8 10l7 6-7 6%27 fill=%27none%27 stroke=%27%237ee3a8%27 stroke-width=%273%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27/%3E%3Cpath d=%27M17 22h8%27 stroke=%27%23ffe14d%27 stroke-width=%273%27 stroke-linecap=%27round%27/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Hebrew:wght@400;500;600&family=Secular+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="#/"><i>&gt;_</i><span id="brandName">Claude Code Academy</span></a>
+    <nav class="nav" id="nav" aria-label="ניווט ראשי"></nav>
+    <div class="tools">
+      <input type="search" id="q" placeholder="חיפוש ( / )" aria-label="חיפוש בכל התוכן">
+      <button class="btn sm" id="themeBtn" aria-label="החלפת ערכת נושא" title="ערכת נושא"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>
+      <span class="xp" id="xpBadge">0 XP</span>
+    </div>
+  </div>
+</header>
+<main id="app" tabindex="-1"></main>
+<footer class="foot">
+  <span id="footInfo"></span> · <a href="#/updates">עדכונים וגרסה</a> · <a href="#/progress">התקדמות והגדרות</a>
+</footer>
+<div id="toasts" aria-live="polite"></div>
+
+<!-- נתוני הקורס. כדי להוסיף/לעדכן תוכן — עורכים רק את הקבצים שבתיקיית data/ -->
+<script src="data/meta.js"></script>
+<script src="data/lessons-1.js"></script>
+<script src="data/lessons-2.js"></script>
+<script src="data/lessons-3.js"></script>
+<script src="data/lessons-4.js"></script>
+<script src="data/cards.js"></script>
+<script src="data/challenges.js"></script>
+<script src="data/games.js"></script>
+<script src="data/cheats.js"></script>
+<script src="data/changelog.js"></script>
+<!-- מנוע האתר -->
+<script src="js/core.js"></script>
+<script src="js/views.js"></script>
+</body>
+</html>
